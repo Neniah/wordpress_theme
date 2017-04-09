@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 
 	<div class="container">
+
+		<div class="row">
+			
+			<?php echo get_bloginfo('name');?>
+		</div>
     <div class="row">
 
   		<div class="col-sm-8 blog-main">
@@ -19,5 +24,5 @@
 
   	</div> <!-- /.row -->
 
-<?php get_footer(); ?>
-	</div><!-- container -->
+	<?php get_footer(); ?>
+</div><!-- container -->

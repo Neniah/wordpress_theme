@@ -17,4 +17,13 @@
       <li><a href="#">Facebook</a></li>
     </ol>
   </div>
+  <div class="blog-masthead">
+    <h4>Pages</h4>
+	<div class="container">
+		<nav class="blog-nav">
+			<a class="blog-nav-item active" href="#">Home</a>
+			<?php wp_list_pages( '&title_li=' ); ?>
+		</nav>
+	</div>
+</div>
 </div><!-- /.blog-sidebar -->
