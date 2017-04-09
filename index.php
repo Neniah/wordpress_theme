@@ -15,8 +15,20 @@
 
   				get_template_part( 'content-single', get_post_format() );
 
-  			endwhile; endif;
-  			?>
+					if ( comments_open() || get_comments_number() ) :
+	  				comments_template();
+					endif;
+
+  			endwhile; ?>
+
+				<nav>
+					<ul class="pager">
+						<li><?php next_posts_link( 'Previous' ); ?></li>
+						<li><?php previous_posts_link( 'Next' ); ?></li>
+					</ul>
+				</nav>
+
+			<?php endif;?>
 
   		</div> <!-- /.blog-main -->
 
