@@ -3,12 +3,21 @@
 	<div class="container">
 
 		<div class="row">
+				<div class="col-md-7">
+					<div class="blog-title left">
+						<a href="https://twitter.com/malobillo?lang=en">@malobillo</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog-title right">
+						<a href="https://github.com/Neniah">Github</a>
+					</div>
+				</div>
 
-			<?php echo get_bloginfo('name');?>
 		</div>
     <div class="row">
 
-  		<div class="col-sm-8 blog-main">
+  		<div class="col-sm-10 blog-main">
 
   			<?php
   			if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -32,7 +41,7 @@
 
   		</div> <!-- /.blog-main -->
 
-  		<?php get_sidebar(); ?>
+  		<?php //get_sidebar(); ?>
 
   	</div> <!-- /.row -->
 
