@@ -13,8 +13,17 @@
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
 
+
     <!-- Custom styles for this template -->
-    <link href="<?php bloginfo('template_directory');?>blog.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory');?>/okzenblog.css" rel="stylesheet">
+
+
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/bootstrap.min.js"></script>
+
+
+
+    </script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -27,6 +36,6 @@
   <body>
     <div class="blog-masthead">
       <div class="container">
-        
+
       </div>
     </div>
